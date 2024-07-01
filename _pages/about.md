@@ -1,15 +1,51 @@
 ---
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "Pushing the boundaries of autonomous systems and intelligent robotics" 
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
+     "Pushing the boundaries of autonomous systems and intelligent robotics" 
 
-This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the respository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this repository](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads! An older version of this template powers my own personal website at [stuartgeiger.com](http://stuartgeiger.com), which uses [this Github repository](https://github.com/staeiou/staeiou.github.io).
+About Me
+======
+As a passionate researcher in computer science, I am currently pursuing my Ph.D. at the University of New Orleans (UNO). In my role as a Graduate Research Assistant in the Autonomous and Intelligent Robotics Lab at UNO, I am privileged to be at the forefront of cutting-edge research in robotics and artificial intelligence.
+Education
 
-A data-driven personal website
+    Ph.D. in Computer Science (In Progress)
+        University of New Orleans
+    B.Sc. in Mechatronics and Industrial Engineering
+        Chittagong University of Engineering & Technology (CUET), Bangladesh
+
+Research Interests
+======
+
+    Robotics
+    Artificial Intelligence
+    Machine Learning
+    Autonomous Systems
+
+Professional Development
+======
+Throughout my academic journey, I have maintained a strong commitment to continuous learning and professional development. I have acquired numerous certifications in areas such as:
+
+    Deep Learning
+    Machine Learning
+    Digital Manufacturing
+
+Current Work
+======
+At UNO, I am furthering my expertise in robotics, machine learning, and artificial intelligence. My work in the Autonomous and Intelligent Robotics Lab enables me to contribute to innovative projects that push the boundaries of autonomous systems and intelligent robotics.
+Research Goals
+As a Ph.D. student in the Computer Science department, I am:
+
+    Expanding my theoretical knowledge
+    Applying concepts to real-world challenges in robotics and AI
+    Contributing to the development of advanced, efficient, and intelligent autonomous systems
+
+My research aims to have a significant impact on various industries and society as a whole. This portfolio showcases my academic achievements, research projects, and contributions to the field of autonomous and intelligent robotics. It reflects my passion for advancing technology and my potential to make meaningful contributions to the scientific community. I am excited about the possibilities that lie ahead and look forward to continuing my work in this dynamic and evolving field. 
+<!-- A data-driven personal website
 ======
 Like many other Jekyll-based GitHub Pages templates, Academic Pages makes you separate the website's content from its form. The content & metadata of your website are in structured markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
 
@@ -46,4 +82,4 @@ Example: editing a markdown file for a talk
 
 For more info
 ------
-More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful. -->
