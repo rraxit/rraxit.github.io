@@ -8,42 +8,64 @@ author_profile: true
 Journal Articles
 ======
 <div class="publication-list">
-  <article class="publication-item">
+  <article class="publication-item publication-item--plum">
     <span class="pub-status">Submitted</span>
     <p>Sourav Raxit, A. A. R. Newaz, P. Padrao, J. Fuentes, T. Alam, and L. Bobadilla, "Dyconrig: Dynamic consensus for robotic information gathering," <em>Robotics and Autonomous Systems</em>.</p>
   </article>
-  <article class="publication-item">
+  <article class="publication-item publication-item--teal">
     <span class="pub-status">Submitted</span>
     <p>J. Wagner, Sourav Raxit, and A. A. R. Newaz, "Db-slam: Relational database-based graph simultaneous localization and mapping for resource-efficient autonomous navigation," <em>Intelligent Service Robotics</em>.</p>
   </article>
-  <article class="publication-item">
+  <article class="publication-item publication-item--green">
     <span class="pub-status">2026</span>
-    <p>Sourav Raxit, J. Fuentes, P. Padrao, et al., "Energy-efficient multi-robot coverage path planning of non-convex regions of interests," <em>IEEE Robotics and Automation Letters</em>, pp. 1-8. doi: 10.1109/LRA.2026.3692093.</p>
+    <p>Sourav Raxit, Jose Fuentes, Paulo Padrao, Abdullah Al Redwan Newaz, Md Tamjidul Hoque, Mark Kulp, and Leonardo Bobadilla, "Energy-efficient multi-robot coverage path planning of non-convex regions of interests," <em>IEEE Robotics and Automation Letters</em>, pp. 1-8. doi: 10.1109/LRA.2026.3692093.</p>
+    <p class="pub-summary">MRCPP plans energy-efficient multi-robot coverage for non-convex regions with obstacles and no-fly zones, using minimum-turn swaths, visibility-graph connectivity, and mTSP allocation. The project page reports 3% to 40% energy reduction and order-of-magnitude computation-time improvement.</p>
+    <div class="pub-links">
+      <a href="https://arxiv.org/abs/2604.22189">Paper</a>
+      <a href="https://mrc-pp.github.io/">Project</a>
+    </div>
   </article>
-  <article class="publication-item">
+  <article class="publication-item publication-item--blue">
     <span class="pub-status">2025</span>
     <p>Sourav Raxit, A. A. R. Newaz, P. Padrao, J. Fuentes, and L. Bobadilla, "BOW: Bayesian optimization over windows for motion planning in complex environments," <em>IEEE Robotics and Automation Letters</em>, vol. 10, no. 10, pp. 10714-10721. doi: 10.1109/LRA.2025.3604738.</p>
+    <p class="pub-summary">BOW is a constrained Bayesian optimization planner that searches over reachable velocity windows to generate fast, safety-aware trajectories with few samples across UGV and UAV experiments.</p>
+    <div class="pub-links">
+      <a href="https://arxiv.org/abs/2508.13052">Paper</a>
+      <a href="https://bow-web.github.io/">Project</a>
+      <a href="https://doi.org/10.1109/LRA.2025.3604738">DOI</a>
+    </div>
   </article>
 </div>
 
 Conference Proceedings
 ======
 <div class="publication-list">
-  <article class="publication-item">
+  <article class="publication-item publication-item--orange">
     <span class="pub-status">Submitted</span>
     <p>Sourav Raxit, A. A. R. Newaz, J. Fuentes, P. Padrao, and L. Bobadilla, "BOWConnect: Parallel Bayesian optimization over windows with learned local cost maps for sample-efficient kinodynamic motion planning," in <em>2026 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)</em>, IEEE, 2026.</p>
   </article>
-  <article class="publication-item">
+  <article class="publication-item publication-item--purple">
     <span class="pub-status">Accepted</span>
     <p>Sourav Raxit, A. A. R. Newaz, J. Fuentes, P. Padrao, A. Cavalcanti, and L. Bobadilla, "Multi-robot trajectory planning via constrained Bayesian optimization and local cost map learning with STL-based conflict resolution," in <em>2026 IEEE International Conference on Robotics and Automation (ICRA)</em>, 2026, pp. 1-8.</p>
+    <p class="pub-summary">STLcBOT combines constrained Bayesian optimization, learned local cost maps, and STL-enhanced conflict resolution for scalable multi-robot trajectory planning. The paper page reports experiments with teams up to 50 robots and real-world autonomous surface vehicles.</p>
+    <div class="pub-links">
+      <a href="https://arxiv.org/abs/2603.05767">Paper</a>
+      <a href="https://stlbot.github.io/">Project</a>
+      <a href="https://doi.org/10.48550/arXiv.2603.05767">DOI</a>
+    </div>
   </article>
-  <article class="publication-item">
+  <article class="publication-item publication-item--gold">
     <span class="pub-status">2024</span>
     <p>R. Ibn Momin, R. K. Das, Sourav Raxit, U. S. Muna, and A. A. Miraj, "Design and fabrication of Bengali braille embosser using solenoid," in <em>2024 IEEE 9th International Conference for Convergence in Technology</em>, Apr. 2024.</p>
   </article>
-  <article class="publication-item">
+  <article class="publication-item publication-item--cyan">
     <span class="pub-status">2024</span>
     <p>Sourav Raxit, S. B. Singh, and A. A. R. Newaz, "YoloTag: Vision-based robust UAV navigation with fiducial markers," in <em>2024 33rd IEEE International Conference on Robot and Human Interactive Communication (ROMAN)</em>, IEEE, Aug. 2024, pp. 311-316.</p>
+    <p class="pub-summary">YoloTag uses a lightweight YOLOv8 detector for real-time fiducial marker detection, perspective-n-point state estimation, and Butterworth filtering to stabilize UAV trajectory tracking.</p>
+    <div class="pub-links">
+      <a href="https://arxiv.org/abs/2409.02334">Paper</a>
+      <a href="https://doi.org/10.1109/RO-MAN60168.2024.10731319">DOI</a>
+    </div>
   </article>
   <article class="publication-item">
     <span class="pub-status">2021</span>

@@ -12,6 +12,10 @@
   --sr-teal: #0f8b8d;
   --sr-gold: #b7791f;
   --sr-plum: #6d597a;
+  --sr-green: #2f855a;
+  --sr-orange: #c05621;
+  --sr-cyan: #047d95;
+  --sr-purple: #7353ba;
 }
 
 html {
@@ -278,6 +282,7 @@ body {
 .publication-item {
   position: relative;
   padding: 1.05rem 1.15rem 1.05rem 1.45rem;
+  overflow: hidden;
 }
 
 .publication-item::before {
@@ -303,6 +308,85 @@ body {
   margin: 0;
 }
 
+.publication-item::after {
+  position: absolute;
+  top: -3.5rem;
+  right: -3.5rem;
+  width: 7rem;
+  height: 7rem;
+  border-radius: 50%;
+  background: rgba(31, 111, 159, 0.08);
+  content: "";
+}
+
+.publication-item--green {
+  background: linear-gradient(135deg, rgba(240, 255, 246, 0.96), rgba(255, 255, 255, 0.9));
+}
+
+.publication-item--green::before,
+.research-feature--green {
+  background-color: var(--sr-green);
+}
+
+.publication-item--blue {
+  background: linear-gradient(135deg, rgba(238, 247, 255, 0.96), rgba(255, 255, 255, 0.9));
+}
+
+.publication-item--blue::before,
+.research-feature--blue {
+  background-color: var(--sr-blue);
+}
+
+.publication-item--purple {
+  background: linear-gradient(135deg, rgba(246, 241, 255, 0.96), rgba(255, 255, 255, 0.9));
+}
+
+.publication-item--purple::before,
+.research-feature--purple {
+  background-color: var(--sr-purple);
+}
+
+.publication-item--cyan {
+  background: linear-gradient(135deg, rgba(235, 251, 255, 0.96), rgba(255, 255, 255, 0.9));
+}
+
+.publication-item--cyan::before,
+.research-feature--cyan {
+  background-color: var(--sr-cyan);
+}
+
+.publication-item--orange {
+  background: linear-gradient(135deg, rgba(255, 246, 235, 0.96), rgba(255, 255, 255, 0.9));
+}
+
+.publication-item--orange::before {
+  background-color: var(--sr-orange);
+}
+
+.publication-item--gold {
+  background: linear-gradient(135deg, rgba(255, 250, 235, 0.96), rgba(255, 255, 255, 0.9));
+}
+
+.publication-item--gold::before {
+  background-color: var(--sr-gold);
+}
+
+.publication-item--teal {
+  background: linear-gradient(135deg, rgba(235, 255, 251, 0.96), rgba(255, 255, 255, 0.9));
+}
+
+.publication-item--teal::before {
+  background-color: var(--sr-teal);
+}
+
+.publication-item--plum {
+  background: linear-gradient(135deg, rgba(250, 244, 255, 0.96), rgba(255, 255, 255, 0.9));
+}
+
+.publication-item--plum::before {
+  background-color: var(--sr-plum);
+}
+
 .pub-status {
   display: inline-block;
   margin-bottom: 0.45rem;
@@ -314,6 +398,104 @@ body {
   font-weight: 850;
   line-height: 1.3;
   text-transform: uppercase;
+}
+
+.pub-summary {
+  margin-top: 0.7rem !important;
+  color: var(--sr-muted);
+  font-size: 0.92rem;
+  line-height: 1.65;
+}
+
+.pub-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+  margin-top: 0.8rem;
+}
+
+.pub-links a {
+  position: relative;
+  z-index: 1;
+  padding: 0.28rem 0.62rem;
+  border-radius: 999px;
+  background: #fff;
+  box-shadow: inset 0 0 0 1px rgba(31, 111, 159, 0.16);
+  color: var(--sr-blue);
+  font-size: 0.78rem;
+  font-weight: 800;
+  text-decoration: none;
+}
+
+.pub-links a:hover {
+  background: var(--sr-blue);
+  color: #fff;
+  text-decoration: none;
+}
+
+.research-feature-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+  margin: 1.2rem 0 1.6rem;
+}
+
+.research-feature {
+  position: relative;
+  overflow: hidden;
+  min-height: 15rem;
+  padding: 1.15rem;
+  border-radius: 8px;
+  color: #fff;
+  box-shadow: 0 18px 38px rgba(23, 32, 42, 0.14);
+}
+
+.research-feature::after {
+  position: absolute;
+  right: -3rem;
+  bottom: -3rem;
+  width: 9rem;
+  height: 9rem;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.14);
+  content: "";
+}
+
+.research-feature span {
+  display: inline-block;
+  margin-bottom: 0.85rem;
+  padding: 0.2rem 0.55rem;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.18);
+  font-size: 0.72rem;
+  font-weight: 900;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.research-feature h3 {
+  margin: 0 0 0.55rem;
+  color: #fff;
+  font-size: 1.1rem;
+  line-height: 1.25;
+}
+
+.research-feature p {
+  color: rgba(255, 255, 255, 0.88);
+  font-size: 0.9rem;
+  line-height: 1.6;
+}
+
+.research-feature a {
+  position: absolute;
+  left: 1.15rem;
+  bottom: 1.1rem;
+  z-index: 1;
+  color: #fff;
+  font-size: 0.82rem;
+  font-weight: 850;
+  text-decoration: underline;
+  text-underline-offset: 0.2em;
 }
 
 .cv-entry {
@@ -353,6 +535,10 @@ body {
   }
 
   .highlight-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .research-feature-grid {
     grid-template-columns: 1fr;
   }
 }

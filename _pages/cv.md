@@ -49,7 +49,34 @@ Employment
 
 Research Publications
 ======
-See [Publications](/publications/).
+<div class="research-feature-grid">
+  <article class="research-feature research-feature--green">
+    <span>MRCPP</span>
+    <h3>Energy-efficient multi-robot coverage</h3>
+    <p>Coverage planning for non-convex regions with obstacles and no-fly zones, using minimum-turn swaths, visibility-graph connectivity, and workload-balanced mTSP allocation.</p>
+    <a href="https://mrc-pp.github.io/">Project</a>
+  </article>
+  <article class="research-feature research-feature--blue">
+    <span>BOW</span>
+    <h3>Bayesian optimization over windows</h3>
+    <p>Sample-efficient, safety-aware kinodynamic motion planning for UGV and UAV systems in cluttered 2D and 3D environments.</p>
+    <a href="https://bow-web.github.io/">Project</a>
+  </article>
+  <article class="research-feature research-feature--purple">
+    <span>STLcBOT</span>
+    <h3>STL-based multi-robot planning</h3>
+    <p>Constrained Bayesian optimization and STL-enhanced conflict resolution for scalable multi-robot trajectory planning.</p>
+    <a href="https://stlbot.github.io/">Project</a>
+  </article>
+  <article class="research-feature research-feature--cyan">
+    <span>YoloTag</span>
+    <h3>Vision-based UAV localization</h3>
+    <p>Real-time fiducial marker localization with YOLOv8, perspective-n-point pose estimation, and filtering for robust UAV navigation.</p>
+    <a href="https://arxiv.org/abs/2409.02334">Paper</a>
+  </article>
+</div>
+
+[View all publications](/publications/){: .btn .btn--primary}
 
 Skills
 ======
