@@ -5,6 +5,35 @@ permalink: /publications/
 author_profile: true
 ---
 
+<section class="cv-hero">
+  <div class="cv-hero__eyebrow">Research Output</div>
+  <h1 class="cv-hero__title">Publications</h1>
+  <p class="cv-hero__lead">Journal articles and conference papers on robotics, motion planning, and vision-based localization. Citation counts below are pulled from Google Scholar, which remains the source of truth for the full, up-to-date record.</p>
+  <div class="cv-actions">
+    <a class="btn btn--primary" href="https://scholar.google.com/citations?user=zecw1dYAAAAJ&hl=en" target="_blank" rel="noopener">View on Google Scholar</a>
+    <a class="btn btn--light" href="/files/My_Cv_final.pdf">Download CV</a>
+  </div>
+</section>
+
+<div class="highlight-grid highlight-grid--4">
+  <div class="highlight-item">
+    <strong>10</strong>
+    <span>Publications</span>
+  </div>
+  <div class="highlight-item">
+    <strong>68</strong>
+    <span>Citations</span>
+  </div>
+  <div class="highlight-item">
+    <strong>3</strong>
+    <span>h-index</span>
+  </div>
+  <div class="highlight-item">
+    <strong>1</strong>
+    <span>i10-index</span>
+  </div>
+</div>
+
 Journal Articles
 ======
 <div class="publication-list">
@@ -27,6 +56,7 @@ Journal Articles
   </article>
   <article class="publication-item publication-item--blue">
     <span class="pub-status">2025</span>
+    <span class="pub-cite">2 citations</span>
     <p>Sourav Raxit, A. A. R. Newaz, P. Padrao, J. Fuentes, and L. Bobadilla, "BOW: Bayesian optimization over windows for motion planning in complex environments," <em>IEEE Robotics and Automation Letters</em>, vol. 10, no. 10, pp. 10714-10721. doi: 10.1109/LRA.2025.3604738.</p>
     <p class="pub-summary">BOW is a constrained Bayesian optimization planner that searches over reachable velocity windows to generate fast, safety-aware trajectories with few samples across UGV and UAV experiments.</p>
     <div class="pub-links">
@@ -46,6 +76,7 @@ Conference Proceedings
   </article>
   <article class="publication-item publication-item--purple">
     <span class="pub-status">Accepted</span>
+    <span class="pub-cite">1 citation</span>
     <p>Sourav Raxit, A. A. R. Newaz, J. Fuentes, P. Padrao, A. Cavalcanti, and L. Bobadilla, "Multi-robot trajectory planning via constrained Bayesian optimization and local cost map learning with STL-based conflict resolution," in <em>2026 IEEE International Conference on Robotics and Automation (ICRA)</em>, 2026, pp. 1-8.</p>
     <p class="pub-summary">STLcBOT combines constrained Bayesian optimization, learned local cost maps, and STL-enhanced conflict resolution for scalable multi-robot trajectory planning. The paper page reports experiments with teams up to 50 robots and real-world autonomous surface vehicles.</p>
     <div class="pub-links">
@@ -60,6 +91,7 @@ Conference Proceedings
   </article>
   <article class="publication-item publication-item--cyan">
     <span class="pub-status">2024</span>
+    <span class="pub-cite">9 citations</span>
     <p>Sourav Raxit, S. B. Singh, and A. A. R. Newaz, "YoloTag: Vision-based robust UAV navigation with fiducial markers," in <em>2024 33rd IEEE International Conference on Robot and Human Interactive Communication (ROMAN)</em>, IEEE, Aug. 2024, pp. 311-316.</p>
     <p class="pub-summary">YoloTag uses a lightweight YOLOv8 detector for real-time fiducial marker detection, perspective-n-point state estimation, and Butterworth filtering to stabilize UAV trajectory tracking.</p>
     <div class="pub-links">
@@ -69,14 +101,17 @@ Conference Proceedings
   </article>
   <article class="publication-item">
     <span class="pub-status">2021</span>
+    <span class="pub-cite">49 citations</span>
     <p>J. Hossain Gourob, Sourav Raxit, and A. Hasan, "A robotic hand: Controlled with vision based hand gesture recognition system," in <em>2021 International Conference on Automation, Control and Mechatronics for Industry 4.0 (ACMI)</em>, 2021, pp. 1-4. doi: 10.1109/ACMI53878.2021.9528192.</p>
   </article>
   <article class="publication-item">
     <span class="pub-status">2021</span>
+    <span class="pub-cite">2 citations</span>
     <p>Sourav Raxit, S. M. Arman, and S. Banik, "Automated car parking system," in <em>International Conference on Mechanical Engineering and Renewable Energy 2021 (ICMERE 2021)</em>, Dec. 2021.</p>
   </article>
   <article class="publication-item">
     <span class="pub-status">2021</span>
+    <span class="pub-cite">4 citations</span>
     <p>Sourav Raxit, J. Hossain Gourob, and H. Kabir, "A comprehensive drug management system by segregating spurious and substandard drugs using blockchain technology," in <em>2021 International Conference on Automation, Control and Mechatronics for Industry 4.0 (ACMI)</em>, 2021, pp. 1-5. doi: 10.1109/ACMI53878.2021.9528238.</p>
   </article>
 </div>

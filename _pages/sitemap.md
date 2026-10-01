@@ -11,5 +11,6 @@ A list of the primary pages on this site. An [XML version]({{ base_path }}/sitem
 
 * [Home]({{ base_path }}/)
 * [Publications]({{ base_path }}/publications/)
+* [Gallery]({{ base_path }}/gallery/)
 * [CV]({{ base_path }}/cv/)
 * [PDF CV]({{ base_path }}/files/My_Cv_final.pdf)
