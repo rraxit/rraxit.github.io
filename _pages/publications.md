@@ -73,6 +73,9 @@ Conference Proceedings
   <article class="publication-item publication-item--orange">
     <span class="pub-status">Submitted</span>
     <p>Sourav Raxit, A. A. R. Newaz, J. Fuentes, P. Padrao, and L. Bobadilla, "BOWConnect: Parallel Bayesian optimization over windows with learned local cost maps for sample-efficient kinodynamic motion planning," in <em>2026 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)</em>, IEEE, 2026.</p>
+    <div class="pub-links">
+      <a href="https://bow-connect.github.io/">Project</a>
+    </div>
   </article>
   <article class="publication-item publication-item--purple">
     <span class="pub-status">Accepted</span>
