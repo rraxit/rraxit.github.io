@@ -14,6 +14,8 @@ author_profile: true
 <div class="gallery-note">
   <strong>How to add real photos:</strong> put image files in <code>/images/gallery/</code>, then replace a placeholder tile below with
   <code>&lt;img src="/images/gallery/your-file.jpg" alt="..."&gt;</code> in place of the <code>gallery-item__ph</code> icon block in <code>_pages/gallery.md</code>.
+  <br><strong>Videos work the same way:</strong> drop clips in <code>/images/gallery/</code> and use
+  <code>&lt;video src="/images/gallery/your-clip.mp4" controls muted playsinline&gt;&lt;/video&gt;</code> instead of the <code>&lt;img&gt;</code> tag.
 </div>
 
 Field Experiments
