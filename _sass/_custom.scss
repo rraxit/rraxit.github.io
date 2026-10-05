@@ -16,6 +16,39 @@
   --sr-orange: #c05621;
   --sr-cyan: #047d95;
   --sr-purple: #7353ba;
+  --sr-font-display: 'Fraunces', Georgia, serif;
+  --sr-font-body: 'IBM Plex Sans', -apple-system, "Segoe UI", Helvetica, Arial, sans-serif;
+}
+
+body {
+  font-family: var(--sr-font-body);
+}
+
+h1, h2, h3, h4, h5, h6,
+.page__title,
+.cv-hero__title,
+.masthead__menu-item--lg a,
+.author__name,
+.research-feature h3,
+.highlight-item strong,
+.cv-entry h3,
+.profile-panel h3 {
+  font-family: var(--sr-font-display);
+  font-weight: 650;
+}
+
+.cv-hero__title {
+  font-weight: 700;
+  letter-spacing: -0.01em;
+}
+
+.cv-hero__eyebrow {
+  font-family: var(--sr-font-display);
+  font-style: italic;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  text-transform: none;
+  font-size: 0.92rem;
 }
 
 html {
@@ -164,12 +197,13 @@ body {
 
 .cv-hero::before {
   position: absolute;
-  inset: 0;
+  inset: -1.5rem -4vw;
   z-index: -1;
+  border-radius: 24px;
   background:
-    radial-gradient(60% 140% at 10% 0%, rgba(31, 111, 159, 0.16), transparent 70%),
-    radial-gradient(55% 120% at 92% 15%, rgba(15, 139, 141, 0.14), transparent 70%),
-    radial-gradient(45% 100% at 55% 100%, rgba(183, 121, 31, 0.1), transparent 70%);
+    radial-gradient(55% 150% at 8% 0%, rgba(31, 111, 159, 0.3), transparent 72%),
+    radial-gradient(50% 130% at 95% 10%, rgba(15, 139, 141, 0.26), transparent 72%),
+    radial-gradient(42% 110% at 55% 105%, rgba(183, 121, 31, 0.18), transparent 72%);
   content: "";
 }
 
@@ -207,14 +241,16 @@ body {
 }
 
 .cv-actions .btn--light {
-  background: #fff;
-  color: var(--sr-blue);
-  box-shadow: inset 0 0 0 1px var(--sr-line), 0 10px 24px rgba(23, 32, 42, 0.06);
+  background: var(--sr-surface);
+  color: var(--sr-blue) !important;
+  box-shadow: inset 0 0 0 1.5px rgba(31, 111, 159, 0.4), 0 10px 24px rgba(23, 32, 42, 0.08);
+  font-weight: 750;
 }
 
 .cv-actions .btn--light:hover {
-  background: var(--sr-soft);
-  color: var(--sr-blue);
+  background: var(--sr-blue);
+  color: #fff !important;
+  box-shadow: inset 0 0 0 1.5px var(--sr-blue), 0 10px 24px rgba(23, 32, 42, 0.14);
 }
 
 .highlight-grid {
@@ -240,7 +276,17 @@ body {
 }
 
 .highlight-item {
-  padding: 1rem;
+  padding: 1rem 1rem 1rem 1.15rem;
+  border-left: 3px solid var(--sr-blue);
+  border-radius: 4px 8px 8px 4px;
+}
+
+.highlight-item:nth-child(3n + 2) {
+  border-left-color: var(--sr-teal);
+}
+
+.highlight-item:nth-child(3n) {
+  border-left-color: var(--sr-gold);
 }
 
 .highlight-item strong {
@@ -572,7 +618,17 @@ body {
 
 .cv-entry {
   margin: 0.9rem 0;
-  padding: 1rem 1.1rem;
+  padding: 1rem 1.1rem 1rem 1.3rem;
+  border-left: 3px solid var(--sr-blue);
+  border-radius: 4px 8px 8px 4px;
+}
+
+.cv-entry:nth-child(3n + 2) {
+  border-left-color: var(--sr-teal);
+}
+
+.cv-entry:nth-child(3n) {
+  border-left-color: var(--sr-gold);
 }
 
 .cv-entry__meta {

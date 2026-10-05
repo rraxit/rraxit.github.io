@@ -8,15 +8,17 @@ author_profile: true
 <section class="cv-hero">
   <div class="cv-hero__eyebrow">In the Field &amp; In the Lab</div>
   <h1 class="cv-hero__title">Gallery</h1>
-  <p class="cv-hero__lead">Photos from field experiments, conferences, and the lab. This section is scaffolded with placeholders below — drop your own images in and swap them in.</p>
+  <p class="cv-hero__lead">Photos and video stills from field experiments, conferences, and the lab.</p>
 </section>
 
-<div class="gallery-note">
-  <strong>How to add real photos:</strong> put image files in <code>/images/gallery/</code>, then replace a placeholder tile below with
-  <code>&lt;img src="/images/gallery/your-file.jpg" alt="..."&gt;</code> in place of the <code>gallery-item__ph</code> icon block in <code>_pages/gallery.md</code>.
-  <br><strong>Videos work the same way:</strong> drop clips in <code>/images/gallery/</code> and use
-  <code>&lt;video src="/images/gallery/your-clip.mp4" controls muted playsinline&gt;&lt;/video&gt;</code> instead of the <code>&lt;img&gt;</code> tag.
-</div>
+<!--
+  How to add real photos: put image files in /images/gallery/, then replace a placeholder
+  tile below with <img src="/images/gallery/your-file.jpg" alt="..."> in place of the
+  gallery-item__ph icon block.
+  Videos work the same way: drop clips in /images/gallery/ and use
+  <video src="/images/gallery/your-clip.mp4" controls muted playsinline></video>
+  instead of the <img> tag.
+-->
 
 Field Experiments
 ======
