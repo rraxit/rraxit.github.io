@@ -1,11 +1,22 @@
 ---
 layout: single
 title: "CV"
+hide_title: true
 permalink: /cv/
-author_profile: true
+author_profile: false
 redirect_from:
   - /resume
 ---
+
+<section class="cv-hero">
+  <div class="cv-hero__eyebrow">Curriculum Vitae</div>
+  <h1 class="cv-hero__title">CV</h1>
+  <p class="cv-hero__lead">Education, research, teaching, and service. The PDF below is the authoritative version.</p>
+  <div class="cv-actions">
+    <a class="btn btn--primary" href="/files/My_Cv_final.pdf">Download PDF</a>
+    <a class="btn btn--light" href="/publications/">Publications</a>
+  </div>
+</section>
 
 Education
 ======
@@ -49,30 +60,60 @@ Employment
 
 Research Publications
 ======
-<div class="research-feature-grid">
-  <article class="research-feature research-feature--green">
-    <span>MRCPP</span>
-    <h3>Energy-efficient multi-robot coverage</h3>
-    <p>Coverage planning for non-convex regions with obstacles and no-fly zones, using minimum-turn swaths, visibility-graph connectivity, and workload-balanced mTSP allocation.</p>
-    <a href="https://mrc-pp.github.io/">Project</a>
+<div class="work-list">
+  <article class="work">
+    <figure class="work__media">
+      <img src="/images/gallery/stlbot-asv-1.jpg" alt="Two autonomous surface vehicles tracing coverage paths across a pond, seen from above">
+    </figure>
+    <div>
+      <div class="work__tag">STLcBOT</div>
+      <h3>Multi-robot trajectory planning with STL conflict resolution</h3>
+      <p>Constrained Bayesian optimization and learned local cost maps, with signal temporal logic resolving inter-robot conflicts. Scales to teams of 50 and runs on real autonomous surface vessels.</p>
+      <div class="work__links">
+        <a href="https://stlbot.github.io/">Project site</a>
+        <a href="https://arxiv.org/abs/2603.05767">Paper</a>
+      </div>
+    </div>
   </article>
-  <article class="research-feature research-feature--blue">
-    <span>BOW</span>
-    <h3>Bayesian optimization over windows</h3>
-    <p>Sample-efficient, safety-aware kinodynamic motion planning for UGV and UAV systems in cluttered 2D and 3D environments.</p>
-    <a href="https://bow-web.github.io/">Project</a>
+  <article class="work">
+    <figure class="work__media">
+      <img src="/images/gallery/bowconnect-uav-exp1.png" alt="UAV path planning: simulated trajectory beside the real quadrotor lab setup">
+    </figure>
+    <div>
+      <div class="work__tag">BOW &amp; BOWConnect</div>
+      <h3>Sample-efficient kinodynamic planning over reachable windows</h3>
+      <p>Safety-aware trajectories from very few samples by optimizing over reachable velocity windows rather than the full configuration space, across UGV and UAV platforms.</p>
+      <div class="work__links">
+        <a href="https://bow-web.github.io/">BOW</a>
+        <a href="https://bow-connect.github.io/">BOWConnect</a>
+      </div>
+    </div>
   </article>
-  <article class="research-feature research-feature--purple">
-    <span>STLcBOT</span>
-    <h3>STL-based multi-robot planning</h3>
-    <p>Constrained Bayesian optimization and STL-enhanced conflict resolution for scalable multi-robot trajectory planning.</p>
-    <a href="https://stlbot.github.io/">Project</a>
+  <article class="work">
+    <figure class="work__media">
+      <img src="/images/gallery/stlbot-gv-1.jpg" alt="Ground robots navigating a motion-capture lab with obstacles, planned paths overlaid">
+    </figure>
+    <div>
+      <div class="work__tag">MRCPP</div>
+      <h3>Energy-efficient coverage of non-convex regions</h3>
+      <p>Coverage planning for irregular regions with obstacles and no-fly zones, using minimum-turn swaths, visibility-graph connectivity, and workload-balanced mTSP allocation.</p>
+      <div class="work__links">
+        <a href="https://mrc-pp.github.io/">Project site</a>
+      </div>
+    </div>
   </article>
-  <article class="research-feature research-feature--cyan">
-    <span>YoloTag</span>
-    <h3>Vision-based UAV localization</h3>
-    <p>Real-time fiducial marker localization with YOLOv8, perspective-n-point pose estimation, and filtering for robust UAV navigation.</p>
-    <a href="https://arxiv.org/abs/2409.02334">Paper</a>
+  <article class="work">
+    <figure class="work__media">
+      <img src="/images/gallery/bowconnect-ugv-exp1.png" alt="Ground robot trajectory planning: simulated path beside the real multi-camera lab setup">
+    </figure>
+    <div>
+      <div class="work__tag">YoloTag</div>
+      <h3>Real-time fiducial localization for GPS-denied flight</h3>
+      <p>Learning-based marker detection with perspective-n-point pose estimation and filtering, giving UAVs reliable position estimates wherever GNSS is unavailable.</p>
+      <div class="work__links">
+        <a href="https://arxiv.org/abs/2409.02334">Paper</a>
+      </div>
+    </div>
   </article>
 </div>
 

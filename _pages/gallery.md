@@ -2,7 +2,7 @@
 layout: single
 title: "Gallery"
 permalink: /gallery/
-author_profile: true
+author_profile: false
 ---
 
 <section class="cv-hero">
